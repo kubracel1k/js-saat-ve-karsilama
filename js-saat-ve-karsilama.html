@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karşilaşma Ekrani</title>
+</head>
+<body>
+    <div id="loginScreen" style="display: flex;justify-content: center;align-items: center;margin: 10em;">
+        <label for="name">Adinizi Giriniz : </label>
+        <input type="text" id="name">
+        <button onclick="login()" style="color: aqua;background-color: black;">Giriş Yap</button>
+    </div>
+    <div id="encounterScreen" style="display: none;">
+        <h1 id="message"></h1>
+        <p id="clockAndDay"></p>
+      </div>
+      <script src="js-saat-ve-karsilama.js"></script>
+</body>
+</html>
